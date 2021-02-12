@@ -17,6 +17,11 @@ public class AddressBookController {
         this.buddyRepo = buddyRepo;
     }
 
+    @GetMapping("/")
+    public String greeting() {
+        return "greeting";
+    }
+
     @GetMapping("/addressbook")
     public String addressBook(@RequestParam(name="ID", required=true) Integer ID,
                               Model model) {
