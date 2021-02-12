@@ -7,4 +7,4 @@ Heroku and Travis-CI title^
 https://leo-java-web-app.herokuapp.com/
 
 # Link to Travis-CI
-https://travis-ci.org/github/leo-paz/java-web-app/builds
+https://travis-ci.com/github/leo-paz/java-web-app/builds
